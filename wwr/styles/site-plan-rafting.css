@@ -16,19 +16,19 @@
 }
 
 body {
-    font-family: var(--Martel);
+    font-family: var(--paragraph-font-Martel);
     max-width: 960 pixels;
     padding: 20 pixels;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(Fjalla One);
-    color: var(#E9D758);
+    font-family: var(--heading-font-Fjalla-One);
+    color: var(--primary-color#E9D758);
 }
 
 header {
     padding: 20px;
-    background-color: var(--#FF8552);
+    background-color: var(--accent1-color#FF8552);
 }
 
 p {
@@ -36,23 +36,23 @@ p {
 }
 
 nav {
-    background-color: var(#FF8552);
+    background-color: var(--nav-background-color#FF8552);
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a {
     display: block;
-    color: var(#297373);
+    color: var(--nav-link-color#297373);
     text-decoration: none;
     padding: 1rem;
 }
 
-nav a:link, nav a:visited{
-    color: var(#E6E6E6);
+nav a:link, nav a:visited {
+    color: var(--nav-link-color#297373);
 }
 
 nav a:hover {
-    color: var(#E6E6E6);
-    background-color: var(#E9D758);
+    color: var(--nav-hover-link-color#E6E6E6);
+    background-color: var(--nav-hover-background-color#E9D758);
 }
