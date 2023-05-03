@@ -1,3 +1,58 @@
+@import url(https://fonts.google.com/);
 
+:root {
+ --primary-color: #E9D758;
+ --secondary-color: #297373;
+ --accent1-color: #FF8552;
+ --accent2-color: #E6E6E6;
 
+ --heading-font: 'Fjalla One', serif;
+ --paragraph-font: 'Martel', serif;
 
+ --nav-background-color: #FF8552;
+ --nav-link-color: #297373;
+ --nav-hover-link-color: #E6E6E6;
+ --nav-hover-background-color: #E9D758;
+}
+
+body {
+    font-family: var(--Martel);
+    max-width: 960 pixels;
+    padding: 20 pixels;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(Fjalla One);
+    color: var(#E9D758);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--#FF8552);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(#FF8552);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(#297373);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+    color: var(#E6E6E6);
+}
+
+nav a:hover {
+    color: var(#E6E6E6);
+    background-color: var(#E9D758);
+}
