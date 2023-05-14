@@ -1,6 +1,6 @@
 
 body {
-    padding: 30px;
+    padding: 20px;
 }
 
 .hero-image {
@@ -13,8 +13,8 @@ body {
 }
 
 #second_image {
-    width: 200px;
-    height: 150px;
+    width: 270px;
+    height: 170px;
 
 }
 
@@ -36,8 +36,8 @@ article {
     display: flex;
     padding: 15px;
     top: 200px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
     
 }
 
@@ -47,10 +47,47 @@ article p {
     padding-right: 10px;
 }
 
+
+/* figure {
+display: flex;
+flex-direction: row;
+position: relative;
+} */
+
+
+/* figcaption {
+align-self: flex-end;
+text-align: left;
+position: absolute;
+} */
+
+/* figure {
+display: flex;
+flex-flow: row;
+justify-content: flex-end;
+}
+
+figcaption img {
+align-self: flex-end;
+
+} */
+
+figure figcaption {
+    display: flex;
+}
+
+#adventure_section{
+    background-color: rgba(255, 170, 51, 0.6);;
+    padding: 5px;
+    text-align: center;
+}
+
 .rafting_pics {
-    width: 770px;
-    height: 424px;
-    padding: 20px;
+    width: 250px;
+    height: 150px;
+    padding: 5px;
+    position: center;
+
 }
 
 .icons_pics {
