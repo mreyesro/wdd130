@@ -6,21 +6,33 @@
 
 body {
     font-size: 16px;
-}
-nav {background-color: #FFD580;
-    padding: 10px;
+     }
+nav 
+    {
+    background-color: #FFD580;
+    padding: 1rem;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     }
-    nav a {
+
+nav a {
         color: #FF5F1F;
         display: block;
         padding: 20px;
+        text-decoration: none;
     }
-    h1 {
+
+h1 {
         color: #FF5F1F;
         margin-top: 1rem;
         margin-bottom: 1rem;
+        border-bottom: 1px solid #FF5F1F;
+
     }
-    main img {
+
+main img {
         width: 150px;
         height: auto;
         border: 1px solid #FF5F1F; 
@@ -29,6 +41,7 @@ nav {background-color: #FFD580;
         float: right;
         margin: 0 1rem 1rem 1rem;
      } 
+
      p {
         margin: 1rem;
      }
@@ -51,15 +64,15 @@ nav {background-color: #FFD580;
         left: 200px;  
     }
 
-    footer {
+    /*footer {
         margin-top: 1em;
         border-top: 1px solid #FF5F1F;
-        text-align: center;
+        text-align: center;/*
     }
 
 /* Class Selectors */
 
-.box{
+.box {
     margin: 1rem;
     border: 1px #FF5F1F;
     padding: 1rem;
@@ -67,11 +80,33 @@ nav {background-color: #FFD580;
     color: #FF5F1F;
 }
 
-.indent{
+.indent {
     width: 550px;
     padding: 2rem;
 }
 
 .nave {
-    height: 300px;
+    height: 100px;
+}
+
+header footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 30rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
