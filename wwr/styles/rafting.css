@@ -1,5 +1,7 @@
-@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap);
-:root
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+:root {
+    background-color: beige;
+}
 
 body {
     padding: 20px;
@@ -51,7 +53,7 @@ article p {
 
 
 #adventure_section{
-    background-color: rgba(255, 170, 51, 0.6);
+    background-color: #FF8552;
     padding: 2px;
     text-align: center;
     width: 1235px;
@@ -81,5 +83,31 @@ figure {
     margin-left: 5px;
 }
 
+nav {
+    display: flex;
+    
+}
 
+header {
+    background-color: #E9D758;
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #FF8552;;
+    border-top: 1px solid #FF8552;;
+    border-left: 1px solid #FF8552;;
+    border-right: 1px solid #FF8552;;
+	max-width: 1000px;
+}
 
+nav a {
+    margin-right: 75px;
+    margin-left: 75px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+section {
+    background-color: #E9D758;
+}
