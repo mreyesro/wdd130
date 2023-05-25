@@ -1,3 +1,43 @@
-table, th, td {
-    border: 1px solid black;
+body {
+   margin-top: 50px;
+   
 }
+
+
+form {
+  width: 500px;
+  background-color: #CCCCFF;
+  padding: 20px;
+  border-color: black;
+}
+
+input {
+    width: 100%;  
+  }
+
+select {
+    width: 100%;  
+  }
+
+textarea {
+    width: 100%;  
+    height: 100px;
+    resize: vertical;
+
+  }
+
+  button {
+    width: 408px;
+    height: 40px;
+    background-color: #6495ED;
+    color: antiquewhite;
+    margin-left: 35px;
+      }
+
+
+.style_form {
+    justify-content: center;
+    display: flex;
+    border: 2px #1F618D;
+}
+  
