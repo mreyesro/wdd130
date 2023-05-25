@@ -3,7 +3,10 @@ body {
    
 }
 
-
+h1 {
+    text-align: center;
+    color: #1F617D;
+}
 form {
   width: 500px;
   background-color: #CCCCFF;
