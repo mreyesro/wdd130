@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+:root {
+    background-color: beige;
+}
+
+body {
+    padding: 20px;
+}
+
+.hero-image {
+   position: relative; 
+}
+
+.hero-image img {
+    width: 100%;
+    height: 550px;
+}
+
+#second_image {
+    width: 270px;
+    height: 170px;
+
+}
+
+h1 {
+    position: absolute;
+    background-color: rgba(253, 218, 13, 0.7);
+    width: 100%;
+    text-align: center;
+    font-size: xxx-large;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    top: 25px;
+    color: #0b3242;
+}
+
+
+
+#priority_section {
+    background-color: #3387ac;
+    padding: 10px;
+    text-align: center;
+    width: 1235px;
+    margin-top: 30px;
+    height: 150px;
+
+}
+
+.rafting_pics {
+    width: 227px;
+    height: 150px;
+    padding: 5px;
+    
+
+}
+
+.icons_pics {
+    width: 40px;
+    height: 40px;
+}
+
+.figure_container {
+    display: flex;
+    padding-left: 1px
+    
+}
+
+figure {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+nav {
+    display: flex;
+    
+}
+
+header {
+    background-color: #3387ac;
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	
+	max-width: 1000px;
+}
+
+nav a {
+    margin-right: 75px;
+    margin-left: 75px;
+    font-size: x-large;
+
+    color: #CCCCFF;
+}
+
+section {
+    background-color: #E9D758;
+    
+}               
+
+.squares {
+    
+    width: 600px;
+    text-align: center;
+    padding-left: 300px;
+    
+    
+}
+
+.squares h2{
+    padding-top: 45px;
+    border-bottom: 1px #FF8552;
+}
+
+#sec1 {
+    width: 600px;
+    border: 1px;
+    height: 200px;
+    color: #0b3242;
+    font-size: larger;
+    
+}
+
+#sec2 {
+    width: 600px;
+    border: 1px;
+    border-top: 1px #FF8552;
+    height: 200px;
+    color: #0b3242;
+    font-size: larger;
+    
+    
+}
+
+#sec3 {
+    width: 600px;
+    border: 1px;
+    border-top: 1px #FF8552;
+    height: 200px;
+    color: #0b3242;
+    font-size: larger;
+    
+}
+
+
+.forma {
+    background-color:  #CCCCFF;
+    
+}
+
+ 
+.forma h2 {
+     text-align: center;
+     color: #1F617D;
+     padding-top: 20px;
+     font-size: xxx-large;
+ }
+
+ form {
+   width: 500px;
+   background-color: #fde664;
+   padding: 20px;
+   border-color: black;
+   padding-bottom: 50px;
+ }
+ 
+ input {
+     width: 100%;  
+   }
+ 
+ select {
+     width: 100%;  
+   }
+ 
+ textarea {
+     width: 100%;  
+     height: 100px;
+     resize: vertical;
+ 
+   }
+ 
+   button {
+     width: 408px;
+     height: 40px;
+     background-color:#6495ED;
+     color: antiquewhite;
+     margin-left: 35px;
+       }
+ 
+ 
+ .style_form {
+     justify-content: center;
+     display: flex;
+     border: 2px ;
+ }
+
+ .checkbox-container {
+    display: flex;
+ }
+   
