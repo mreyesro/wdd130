@@ -1,6 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;900&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@600&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+
+
 :root {
-    background-color: beige;
+    background-color: rgb(241, 241, 149);
 }
 
 body {
@@ -25,23 +37,28 @@ body {
 h1 {
     position: absolute;
     background-color: rgba(253, 218, 13, 0.7);
-    width: 100%;
+    width: 600px;
+    margin-left: 300px;
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Bowlby One SC', cursive;
     padding-top: 15px;
     padding-bottom: 15px;
-    top: 25px;
+    top: 30px;
+    color: #0b3242;
+    
 }
 
 
 article {
     position: absolute;
-    background-color: rgba(255, 170, 51, 0.6);
+    background-color: rgba(51, 121, 210, 0.74);
     display: flex;
     padding: 15px;
     top: 200px;
     margin-left: 120px;
     margin-right: 120px;
+    color:#050f1d;
+    
     
 }
 
@@ -49,14 +66,18 @@ article {
 article p {
     text-align: justify;
     padding-right: 10px;
+    font-family: 'Libre Caslon Display', serif;
+    padding: 20PX;
 }
 
 
 #adventure_section{
-    background-color: #FF8552;
-    padding: 2px;
+    background-color: rgba(51, 121, 210, 0.74);;
+    padding: 20px;
     text-align: center;
     width: 1235px;
+    font-family: 'Bowlby One SC', cursive;
+    color: #0b3242;
 }
 
 .rafting_pics {
@@ -75,12 +96,15 @@ article p {
 .figure_container {
     display: flex;
     padding-left: 1px
+
     
 }
 
 figure {
     margin-right: 5px;
     margin-left: 5px;
+    text-align: center;
+    
 }
 
 nav {
@@ -89,25 +113,44 @@ nav {
 }
 
 header {
-    background-color: #E9D758;
+    background-color: #3387ac;
     margin: 1rem auto;
 	display: grid;
 	grid-template-columns: 120px 1fr 2fr;
 	align-items: center;
-	border-bottom: 1px solid #FF8552;;
-    border-top: 1px solid #FF8552;;
-    border-left: 1px solid #FF8552;;
-    border-right: 1px solid #FF8552;;
-	max-width: 1000px;
+	border-bottom: 1px solid #3387ac;
+    border-top: 1px solid #3387ac;
+    border-left: 1px solid #3387ac;
+    border-right: 1px solid #3387ac;
+	max-width: 1000px;  
 }
 
 nav a {
     margin-right: 75px;
     margin-left: 75px;
-    font-family: 'Oswald', sans-serif;
-    color: black;
+    color: #d5e299;
+    font-size: large;
+    font-family: 'Libre Caslon Display', serif;
+    
 }
 
 section {
     background-color: #E9D758;
+    font-family: 'Libre Caslon Display', serif;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #0b3242;
+}
+
+section h2 {
+    font-family: 'Bowlby One SC', cursive;
+}
+
+section figure {
+    font-family: 'Libre Caslon Display', serif;
+    color: #050f1d;
 }

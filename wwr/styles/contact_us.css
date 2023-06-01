@@ -1,6 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;900&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@600&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
 :root {
-    background-color: beige;
+    background-color: rgb(241, 241, 149);
 }
 
 body {
@@ -25,24 +35,27 @@ body {
 h1 {
     position: absolute;
     background-color: rgba(253, 218, 13, 0.7);
-    width: 100%;
+    width: 600px;
+    margin-left: 300px;
     text-align: center;
-    font-size: xxx-large;
+    font-family: 'Bowlby One SC', cursive;
     padding-top: 15px;
     padding-bottom: 15px;
-    top: 25px;
+    top: 30px;
     color: #0b3242;
+    
 }
 
 
 
 #priority_section {
-    background-color: #3387ac;
+    background-color: rgba(51, 121, 210, 0.74);;
     padding: 10px;
     text-align: center;
     width: 1235px;
     margin-top: 30px;
     height: 150px;
+    font-family: 'Libre Caslon Display', serif;
 
 }
 
@@ -81,16 +94,20 @@ header {
 	display: grid;
 	grid-template-columns: 120px 1fr 2fr;
 	align-items: center;
-	
-	max-width: 1000px;
+	border-bottom: 1px solid #3387ac;
+    border-top: 1px solid #3387ac;
+    border-left: 1px solid #3387ac;
+    border-right: 1px solid #3387ac;
+	max-width: 1000px;  
 }
 
 nav a {
     margin-right: 75px;
     margin-left: 75px;
-    font-size: x-large;
-
-    color: #CCCCFF;
+    color: #d5e299;
+    font-size: large;
+    font-family: 'Libre Caslon Display', serif;
+    
 }
 
 section {
@@ -109,7 +126,7 @@ section {
 
 .squares h2{
     padding-top: 45px;
-    border-bottom: 1px #FF8552;
+   
 }
 
 #sec1 {
@@ -192,9 +209,44 @@ section {
      justify-content: center;
      display: flex;
      border: 2px ;
+     font-family: 'Libre Caslon Display', serif;
+     color: #0b3242;
+     font-size: medium;
  }
 
  .checkbox-container {
     display: flex;
  }
-   
+
+ 
+ section h2 {
+    font-family: 'Bowlby One SC', cursive;
+    color: #0b3242;
+}
+
+section figure {
+    font-family: 'Libre Caslon Display', serif;
+    color: #050f1d;
+    text-align: center;
+}
+
+#staff_section h2 {
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.foto_mapa {
+    height: 450px;
+    padding-left: 10px;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 241, 149);;
+    padding: 10px;
+    top: 50px;
+    padding-top: 25px;
+    margin-top: 30px;
+}
